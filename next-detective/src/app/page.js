@@ -17,6 +17,7 @@ function Main() {
     <>
       <main>
         <Link href={"/blog"}>Blog</Link>
+        <Link href={"/article"}>Article</Link>
         {/* <MainBG />
         <About />
         <Services />
