@@ -1,0 +1,41 @@
+.button_socnet {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.like {
+  display: flex;
+  width: 86px;
+  height: 56px;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  border: 1px solid #e9c394;
+  color: #e9c394;
+  background: #fff;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  cursor: pointer;
+}
+
+.dislike {
+  display: flex;
+  width: 86px;
+  height: 56px;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  border: 1px solid rgba(64, 53, 49, 0.5);
+  color: #484848;
+  background: #fff;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  cursor: pointer;
+}

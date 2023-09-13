@@ -35,7 +35,7 @@
 
   .p {
     color: #403531;
-    font-family: Geologica;
+    // font-family: Geologica;
     font-size: 21px;
     font-style: normal;
     font-weight: 500;
@@ -160,7 +160,7 @@
 
   .p {
     color: #403531;
-    font-family: Geologica;
+    // font-family: Geologica;
     font-size: 21px;
     font-style: normal;
     font-weight: 500;
@@ -337,7 +337,6 @@
 
 .time {
   color: #484848;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -346,7 +345,6 @@
 
 .h1 {
   color: #403531;
-  font-family: Geologica;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
@@ -356,7 +354,6 @@
 
 .text {
   color: #484848;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -366,7 +363,6 @@
 
 .h2 {
   color: #403531;
-  font-family: Geologica;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -376,7 +372,6 @@
 
 .h3 {
   color: #403531;
-  font-family: Geologica;
   font-size: 21px;
   font-style: normal;
   font-weight: 500;
@@ -408,7 +403,6 @@
   gap: 12px;
   li {
     color: #497cff;
-    font-family: Geologica;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -444,7 +438,6 @@
   grid-area: img;
   margin: 0%;
   color: #e9c394;
-  font-family: Geologica;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -455,7 +448,6 @@
   grid-area: title;
   margin: 0%;
   color: #403531;
-  font-family: Geologica;
   font-size: 21px;
   font-style: normal;
   font-weight: 500;
@@ -466,7 +458,6 @@
   grid-area: smalltext;
   margin: 0%;
   color: #484848;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -487,7 +478,6 @@
   grid-area: number;
   margin: 0%;
   color: #e9c394;
-  font-family: Geologica;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -498,7 +488,6 @@
   grid-area: title_numbers;
   margin: 0%;
   color: #403531;
-  font-family: Geologica;
   font-size: 21px;
   font-style: normal;
   font-weight: 500;
@@ -509,7 +498,6 @@
   grid-area: smalltext_numbers;
   margin: 0%;
   color: #484848;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -533,7 +521,6 @@
 
 .textdirector {
   color: #484848;
-  font-family: Geologica;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -551,7 +538,6 @@
 
 .textautor {
   color: #403531;
-  font-family: Geologica;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -560,60 +546,16 @@
 
 .textautordirector {
   color: #403531;
-  font-family: Geologica;
+  // font-family: Geologica;
   font-size: 21px;
   font-style: normal;
   font-weight: 500;
   line-height: 140%;
-}
-
-.button_socnet {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.like {
-  display: flex;
-  width: 86px;
-  height: 56px;
-  padding: 16px;
-  align-items: center;
-  gap: 8px;
-  border-radius: 16px;
-  border: 1px solid #e9c394;
-  color: #e9c394;
-  background: #fff;
-  font-family: Geologica;
-  font-size: 21px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 140%;
-  cursor: pointer;
-}
-
-.dislike {
-  display: flex;
-  width: 86px;
-  height: 56px;
-  padding: 16px;
-  align-items: center;
-  gap: 8px;
-  border-radius: 16px;
-  border: 1px solid rgba(64, 53, 49, 0.5);
-  color: #484848;
-  background: #fff;
-  font-family: Geologica;
-  font-size: 21px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 140%;
-  cursor: pointer;
 }
 
 .p {
   color: #403531;
-  font-family: Geologica;
+  // font-family: Geologica;
   font-size: 21px;
   font-style: normal;
   font-weight: 500;
