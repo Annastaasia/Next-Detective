@@ -1,39 +1,37 @@
+// import MainBG from "./components/MainBG/MainBG.jsx";
+// import About from "../../components/About/About.jsx";
+// import Blog from "../../components/Blog/Blog.jsx";
+// import Director from "../../components/Director/Director.jsx";
+// import FAQ from "../../components/FAQ/FAQ.jsx";
+// import FirstVisit from "../../components/FirstVisit/FirstVisit.jsx";
+// import License from "../../components/License/License.jsx";
+// import Map from "../../components/Map/Map.jsx";
+// import Review from "../../components/Review/Review.jsx";
+// import Safety from "../../components/Safety/Safety.jsx";
+// import Services from "../../components/Services/Services.jsx";
+// import Youtube from "../../components/Youtube/Youtube.jsx";
+import Link from "next/link";
 
-import {
-  Routes,
-  Route,
-} from "react-router-dom";
-import Header from "./components/Header/Header.jsx";
-import Main from "./pages/Main/Main.jsx";
-import FAQ from "./components/FAQ/FAQ.jsx";
-import Footer from "./components/Footer/Footer";
-import Contacts from "./pages/Contacts/Contacts.jsx";
-import ServicesPage from "./pages/ServicesPage/ServicesPage.jsx";
-import Reviews from "./pages/ReviewsPage/ReviewPage.jsx";
-import GeoLocationPage from "./pages/GeoLocationPage/GeoLocationPage.jsx";
-import ArticlePage from "./pages/ArticlePage/ArticlePage.jsx";
-import Blog from "./pages/BlogPage/BlogPage.jsx"
-import PricePage from "./pages/PricePage/PricePage.jsx";
-import NoMatch from "./pages/NoMatch/NoMatch.jsx";
-
-export default function Home() {
+function Main() {
   return (
-    <div className="App">
-      <Header />
-      <Routes>
-        <Route exact path="/React-Detective" element={<Main />} />
-        <Route exact path="/form" element={<FAQ />} />
-        <Route exact path="/contacts" element={<Contacts />} />
-        <Route exact path="/services_for_individuals" element={<ServicesPage />} />
-        <Route exact path="/services_for_individuals/geolocation" element={<GeoLocationPage />} />
-        <Route exact path="/reviews" element={<Reviews />} />
-        <Route exact path="/blog/article1" element={<ArticlePage />} />
-        <Route exact path="/blog" element={<Blog />} />
-        <Route exact path="/price" element={<PricePage />} />
-
-        <Route path="*" element={<NoMatch />} />
-      </Routes>
-      <Footer />
-    </div>
+    <>
+      <main>
+        <Link href={"/blog"}>Blog</Link>
+        {/* <MainBG />
+        <About />
+        <Services />
+        <License />
+        <Youtube />
+        <FirstVisit />
+        <Director />
+        <Review />
+        <Safety />
+        <FAQ />
+        <Blog />
+        <Map /> */}
+      </main>
+    </>
   );
 }
+
+export default Main;
