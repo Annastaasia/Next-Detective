@@ -1,3 +1,4 @@
+"use client";
 import style from "./blog.module.scss";
 import posts from "../Post/posts";
 import Post from "../Post/Post";

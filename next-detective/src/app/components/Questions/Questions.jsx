@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
-import style from "./questions.scss";
+import "./questions.scss";
 import { FiPlus } from "react-icons/fi";
 
 export const Questions = () => {

@@ -1,3 +1,4 @@
+"use client";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import React from "react";
@@ -30,7 +31,7 @@ export const Carousel = (props) => {
         classes: {
           pagination: `${style.splide__pagination} ${style.mypagination}`,
           page: `${style.splide__pagination__page} ${style.mypage}`,
-        }
+        },
       }}
       aria-label="React Splide"
       className={style.brzcarousel}
