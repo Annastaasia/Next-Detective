@@ -1,17 +1,21 @@
 // "use client";
+// // import Link from "next/link";
+// // import { useRouter } from 'next/router';
+// import { usePathname } from 'next/navigation'
 // // import { Link, useLocation } from "react-router-dom";
-// import { Link, useLocation } from "next/link";
+// import { Link } from "next/link";
 // import style from "./breadcrumbs.module.scss";
 
-// const Breadcrumbs = () => {
-//   const location = useLocation();
-//   const pathnames = location.pathname.split("/").filter((pathname) => pathname);
+// export default function Breadcrumbs() {
+//   const pathnames = usePathname();
+//   console.log(pathnames)
+// //   const pathnames = location.split("/").filter((pathname) => pathname);
 
 //   return (
 //     <nav aria-label="breadcrumb" className={style.breadcrumbs}>
 //       <ol>
 //         <li>
-//           <Link to="/React-Detective">Главная </Link>
+//           <Link to="/React-Detective">Главная</Link>
 //         </li>
 //         {pathnames.map((pathname, index) => {
 //           const routeTo = `/${pathnames.slice(0, index + 1).join("/")}`;
@@ -45,4 +49,4 @@
 //   return translations[breadcrumb] || breadcrumb;
 // };
 
-// export default Breadcrumbs;
+//  Breadcrumbs;
