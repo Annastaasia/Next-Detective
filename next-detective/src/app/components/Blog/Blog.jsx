@@ -3,6 +3,8 @@ import style from "./blog.module.scss";
 import posts from "../Post/posts";
 import Post from "../Post/Post";
 import Link from "next/link";
+import Image from "next/image";
+import ArrowRight from "../../../../public/vectorright.svg"
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
@@ -14,8 +16,8 @@ export default function Blog() {
           <h3>Блог</h3>
           <Link href="/blog">
             Смотреть все
-            <img
-              src={process.env.PUBLIC_URL + "/images/biege_arrow_right.svg"}
+            <Image
+              src={ArrowRight}
               alt="Нажмите, чтобы перейти и посмотреть все посты"
             />
           </Link>

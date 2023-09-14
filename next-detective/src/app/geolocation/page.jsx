@@ -3,7 +3,7 @@ import style from "./geolocationpage.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-// import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs.jsx";
+import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs.jsx";
 import GeoLocationImg from "../../../public/geolocation-photo.png";
 import Star from "../../../public/icon_star.svg";
 import VectorRight from "../../../public/vectorright.svg";
@@ -24,7 +24,7 @@ export default function GeoLocationPage() {
 
       <main className={style.container}>
         <section className={style.section_header}>
-          {/* <Breadcrumbs /> */}
+          <Breadcrumbs />
           <h1 className={style.h1}>Пробить геолокацию по номеру телефона</h1>
           <div className={style.blok_header}>
             <div className={style.blok_img}>

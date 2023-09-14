@@ -6,7 +6,7 @@ import { Content } from "../components/Content/Content.jsx";
 import { Questions } from "../components/Questions/Questions";
 import { ButtonsLike } from "../components/ButtonsLike/ButttonsLike";
 import style from "./articlepage.module.scss";
-// import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs.jsx";
+import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs.jsx";
 import Image from "next/image";
 import ArticleMain from "../../../public/article-main-photo.png";
 import Eye from "../../../public/article-eye.svg";
@@ -38,7 +38,7 @@ export default function ArticlePage(props) {
     <>
       <main className={style.container}>
         <section className={style.section_header}>
-          {/* <Breadcrumbs /> */}
+          <Breadcrumbs />
           <Image src={ArticleMain} className={style.image} alt="article main" />
           <div className={style.container_time}>
             <div className={style.blok_time}>
