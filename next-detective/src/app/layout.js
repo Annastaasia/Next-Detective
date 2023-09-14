@@ -1,7 +1,7 @@
 import './globals.css'
 import { Geologica } from 'next/font/google'
 
-const geologica = Geologica({ subsets: ['latin'] })
+const geologica = Geologica({ subsets: ['latin', 'cyrillic'] })
 
 export const metadata = {
   title: 'Create Next App',

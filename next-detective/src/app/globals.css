@@ -132,6 +132,11 @@ a {
   text-decoration: none;
 }
 
+button,
+input {
+  font-family: inherit;
+}
+
 /* :root {
   --max-width: 1100px;
   --border-radius: 12px;
