@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Post(props) {
   return (
     <Link href={`${props.link}`} className={`${style.post}`}>
-      <Image src={props.image} width={100} height={200} alt="post" />
+      <Image src={props.image} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt="post" />
       <span>{props.tag}</span>
       <div className={`${style.post_content}`}>
         <p className={`${style.post_title}`}>{props.title}</p>
