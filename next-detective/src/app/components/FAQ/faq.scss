@@ -93,7 +93,6 @@
 
 .h3 {
   color: #403531;
-  font-family: Geologica;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
@@ -123,10 +122,10 @@
 
 .question-style {
   color: #403531;
-  font-family: Geologica;
+  font-family: "Geologica";
   font-size: 21px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 140%;
   margin: 0;
 }
@@ -150,11 +149,18 @@
   transition: max-height 0.6s ease;
   text-align: left;
   color: #484848;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
+}
+
+.answer-style {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  font-family: "Geologica";
 }
 
 .blokform {
@@ -168,7 +174,6 @@
 
 .title {
   color: #fff;
-  font-family: Geologica;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -184,7 +189,6 @@
 
 .text {
   color: #fff2d8;
-  font-family: Geologica;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -193,7 +197,6 @@
 
 .textdirector {
   color: #fff;
-  font-family: Geologica;
   font-size: 21px;
   font-style: normal;
   font-weight: 500;
@@ -218,8 +221,8 @@
   gap: 16px;
   align-self: stretch;
   background: transparent;
-  font-family: Geologica;
   font-size: 16px;
+  font-family: "Geologica";
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
@@ -263,8 +266,8 @@ input:-webkit-autofill:active {
   gap: 16px;
   align-self: stretch;
   background: transparent;
-  font-family: Geologica;
   font-size: 16px;
+  font-family: "Geologica";
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
@@ -290,10 +293,10 @@ input:-webkit-autofill:active {
   gap: 16px;
   align-self: stretch;
   background: transparent;
-  font-family: Geologica;
   font-size: 16px;
+  font-family: "Geologica";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 140%;
   color: rgba(255, 255, 255, 0.5);
   border: none;
@@ -319,12 +322,12 @@ input:-webkit-autofill:active {
   border-radius: 40px;
   background: #fff;
   color: #403531;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 140%;
   margin-top: 40px;
+  font-family: "Geologica";
 }
 
 .button:hover {

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FiPlus } from "react-icons/fi";
 import FormPhoto from "../../../../public/form-foto.png";
 import "./faq.scss";
-// import SecondModal from "../../components/SecondModal/SecondModal";
+import SecondModal from "../SecondModal/SecondModal";
 
 export default function FAQ() {
   const [active, setActive] = useState(false);
@@ -116,7 +116,7 @@ export default function FAQ() {
                   ref={contentRef}
                   className={active ? `answer answer-divider` : `answer`}
                 >
-                  <p>
+                  <p className="answer-style">
                     Предварительные выводы неутешительны: дальнейшее развитие
                     различных форм деятельности создаёт предпосылки для
                     переосмысления внешнеэкономических политик. С другой
@@ -148,7 +148,7 @@ export default function FAQ() {
                   ref={contentRef1}
                   className={active1 ? `answer answer-divider` : `answer`}
                 >
-                  <p>
+                  <p className="answer-style">
                     Предварительные выводы неутешительны: дальнейшее развитие
                     различных форм деятельности создаёт предпосылки для
                     переосмысления внешнеэкономических политик. С другой
@@ -180,7 +180,7 @@ export default function FAQ() {
                   ref={contentRef2}
                   className={active2 ? `answer answer-divider` : `answer`}
                 >
-                  <p>
+                  <p className="answer-style">
                     Предварительные выводы неутешительны: дальнейшее развитие
                     различных форм деятельности создаёт предпосылки для
                     переосмысления внешнеэкономических политик. С другой
@@ -212,7 +212,7 @@ export default function FAQ() {
                   ref={contentRef3}
                   className={active3 ? `answer answer-divider` : `answer`}
                 >
-                  <p>
+                  <p className="answer-style">
                     Предварительные выводы неутешительны: дальнейшее развитие
                     различных форм деятельности создаёт предпосылки для
                     переосмысления внешнеэкономических политик. С другой
@@ -243,7 +243,7 @@ export default function FAQ() {
                   ref={contentRef4}
                   className={active4 ? `answer answer-divider` : `answer`}
                 >
-                  <p>
+                  <p className="answer-style">
                     Предварительные выводы неутешительны: дальнейшее развитие
                     различных форм деятельности создаёт предпосылки для
                     переосмысления внешнеэкономических политик. С другой
@@ -274,7 +274,7 @@ export default function FAQ() {
                   ref={contentRef5}
                   className={active5 ? `answer answer-divider` : `answer`}
                 >
-                  <p>
+                  <p className="answer-style">
                     Предварительные выводы неутешительны: дальнейшее развитие
                     различных форм деятельности создаёт предпосылки для
                     переосмысления внешнеэкономических политик. С другой
@@ -298,7 +298,7 @@ export default function FAQ() {
                 <span className="textdirector">Першин Кирилл Олегович</span>
               </p>
             </div>
-            {/* <SecondModal></SecondModal> */}
+            <SecondModal></SecondModal>
           </div>
         </div>
       </section>
