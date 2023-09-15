@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import Image from "next/image";
-// import Review from "../ReviewCard/ReviewCard";
+import Review from "../ReviewCard/ReviewCard";
 import style from "./pagination.module.scss";
 import Post from "../Post/Post";
 
