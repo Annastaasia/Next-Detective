@@ -1,27 +1,18 @@
-"use client";
 import style from "./geolocationpage.module.scss";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
 import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs.jsx";
 import GeoLocationImg from "../../../public/geolocation-photo.png";
 import Star from "../../../public/icon_star.svg";
-import VectorRight from "../../../public/vectorright.svg";
 import Binoculars from "../../../public/services-binoculars.svg";
 import Play from "../../../public/play.svg";
 import FAQ from "../components/FAQ/FAQ";
 import Blog from "../components/Blog/Blog";
-import Popup from "../components/Popup/Popup";
-import SecondModal from "../components/SecondModal/SecondModal";
+import { ButtonModal } from "../components/ButtonModal/ButtonModal";
 
 export default function GeoLocationPage() {
-  const [buttonPopup, setButtonPopup] = useState(false);
   return (
     <>
-      <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-        <SecondModal HowToReachUs={true} />
-      </Popup>
-
       <main className={style.container}>
         <section className={style.section_header}>
           <Breadcrumbs />
@@ -65,20 +56,7 @@ export default function GeoLocationPage() {
                 </div>
               </div>
               <div className={style.blok_buy}>
-                <button
-                  onClick={() => setButtonPopup(true)}
-                  className={style.button_buy}
-                  type="button"
-                >
-                  Заказать услугу
-                  <Image
-                    src={VectorRight}
-                    alt="vector"
-                    className={style.icon}
-                    width={24}
-                    height={24}
-                  />
-                </button>
+                <ButtonModal />
 
                 <div className={style.blokmobile_rating}>
                   <p className={style.text_rating}>5.0</p>

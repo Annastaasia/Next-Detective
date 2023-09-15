@@ -1,5 +1,3 @@
-"use client";
-
 import Blog from "../components/Blog/Blog";
 import { Carousel } from "../components/Carousel/Carousel.jsx";
 import { Content } from "../components/Content/Content.jsx";
