@@ -19,6 +19,7 @@ function Main() {
         <Link href={"/blog"}>Blog</Link>
         <Link href={"/article"}>Article</Link>
         <Link href={"/geolocation"}>Geolocation</Link>
+        <Link href={"/reviews"}>Reviews</Link>
         <Link href={"/contacts"}>Contacts</Link>
         <Link href={"/price"}>Price</Link>
         {/* <MainBG />
