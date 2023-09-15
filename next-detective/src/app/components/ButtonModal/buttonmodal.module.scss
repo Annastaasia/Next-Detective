@@ -1,0 +1,27 @@
+.button_buy {
+  display: flex;
+  height: 56px;
+  padding: 16px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 40px;
+  background: #fff;
+  color: #403531;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.button_buy:hover {
+  background: #fff2d8;
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+  .icon {
+    filter: invert(90%) sepia(31%) saturate(2%) hue-rotate(194deg)
+      brightness(107%) contrast(100%);
+    transition-duration: 0.3s;
+  }
+}
