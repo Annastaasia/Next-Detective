@@ -1,4 +1,4 @@
-import MainBG from "../../components/MainBG/MainBG.jsx";
+import MainBG from "../components/MainBG/MainBG.jsx";
 // import About from "../../components/About/About.jsx";
 // import Blog from "../../components/Blog/Blog.jsx";
 // import Director from "../../components/Director/Director.jsx";

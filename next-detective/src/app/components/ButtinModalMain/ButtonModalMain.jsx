@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import style from "./content.module.scss";
+import style from "./buttonmodalmain.module.scss";
 import Image from "next/image";
 import Vectorright from "../../../../public/Vectorright.jsx";
 import Popup from "../Popup/Popup";

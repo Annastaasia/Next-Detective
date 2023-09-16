@@ -1,8 +1,9 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import style from "./mainbg.module.scss";
 import SecondModal from "../SecondModal/SecondModal";
 import SocialMediaButtons from "../SocialMediaButtons/SocialMediaButtons";
+import { ButtonModalMain } from "../ButtinModalMain/ButtonModalMain";
 
 export default function MainBG() {
   return (
@@ -18,6 +19,7 @@ export default function MainBG() {
         </div>
       </section>
       <div className={style.button_mobile}>
+        <ButtonModalMain />
         {/* <button
           type="submit"
           className={style.button}

@@ -7,7 +7,7 @@ import FormError from "../../../../public/FormError.jsx";
 import FormCheck from "../../../../public/FormCheck.jsx";
 import Vectorright from "../../../../public/Vectorright.jsx";
 import { useState } from "react";
-// import mainstyles from "../MainBG/mainbg.module.scss";
+import mainstyles from "../MainBG/mainbg.module.scss";
 import "../FAQ/faq.scss";
 
 export default function Form(props) {

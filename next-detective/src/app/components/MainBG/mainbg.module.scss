@@ -1,6 +1,6 @@
 @media screen and (min-width: 1380px) {
   .background {
-    background-image: url("../../assets/images/main-bg-1920.png");
+    background-image: url("../../../../public/main-bg-1920.png");
     max-width: 100%;
     height: 1010px;
     background-position: top center;
@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 1381px) {
   .background {
-    background-image: url("../../assets/images/main-bg-1280.png");
+    background-image: url("../../../../public/main-bg-1280.png");
     max-width: 100%;
     height: 832px;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 1202px) {
   .background {
-    background-image: url("../../assets/images/main-bg-744.png");
+    background-image: url("../../../../public/main-bg-744.png");
     max-width: 100%;
     height: 800px;
     background-repeat: no-repeat;
@@ -152,7 +152,7 @@
 
 @media screen and (max-width: 580px) {
   .background {
-    background-image: url("../../assets/images/main-bg-375.png");
+    background-image: url("../../../../public/main-bg-375.png");
     background-color: #110f0f;
     max-width: 100%;
     height: 483px;
@@ -205,7 +205,6 @@
 .h1 {
   color: #fff;
   text-align: center;
-  font-family: Geologica;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
@@ -216,7 +215,6 @@
 .h2 {
   color: #e9c394;
   text-align: center;
-  font-family: Geologica;
   font-style: normal;
   font-weight: 300;
   line-height: 140%;
@@ -232,7 +230,6 @@
   gap: 16px;
   align-self: stretch;
   background: transparent;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -251,18 +248,54 @@
   cursor: pointer;
 }
 
-input:focus {
+.name:focus {
   outline: none !important;
 }
 
-input:focus::placeholder {
+.name:focus::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
+.number:focus {
+  outline: none !important;
+}
+
+.number:focus::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.question:focus {
+  outline: none !important;
+}
+
+.question:focus::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.name:-webkit-autofill,
+.name:-webkit-autofill:hover,
+.name:-webkit-autofill:focus,
+.name:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px #23232329;
+}
+
+.number:-webkit-autofill,
+.number:-webkit-autofill:hover,
+.number:-webkit-autofill:focus,
+.number:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px #23232329;
+}
+
+.question:-webkit-autofill,
+.question:-webkit-autofill:hover,
+.question:-webkit-autofill:focus,
+.question:-webkit-autofill:active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: #ffffff;
   transition: background-color 5000s ease-in-out 0s;
@@ -277,7 +310,6 @@ input:-webkit-autofill:active {
   gap: 16px;
   align-self: stretch;
   background: transparent;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -304,7 +336,6 @@ input:-webkit-autofill:active {
   gap: 16px;
   align-self: stretch;
   background: transparent;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -333,7 +364,6 @@ input:-webkit-autofill:active {
   border-radius: 40px;
   background: #fff;
   color: #403531;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -368,7 +398,6 @@ input:-webkit-autofill:active {
 .p {
   background-color: #fff;
   color: #000;
-  font-family: Geologica;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
