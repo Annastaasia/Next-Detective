@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import style from "./buttonmodalmain.module.scss";
 import Image from "next/image";
-import Vectorright from "../../../../public/Vectorright.jsx";
+import Vectorright from "../../../../public/vectorright.svg";
 import Popup from "../Popup/Popup";
 import SecondModal from "../SecondModal/SecondModal";
 
@@ -17,9 +17,7 @@ export const ButtonModalMain = () => {
         onClick={() => setButtonPopup(true)}
       >
         Оставить заявку
-        <div className={style.vector}>
-          <Image src={Vectorright} alt="Vectorright" />
-        </div>
+        <Image src={Vectorright} alt="Vectorright" className={style.vector} />
       </button>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
         <SecondModal isMainMobile={true} />
