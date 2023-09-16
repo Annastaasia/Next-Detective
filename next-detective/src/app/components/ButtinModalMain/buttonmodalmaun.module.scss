@@ -1,0 +1,54 @@
+@media screen and (min-width: 1380px) {
+  .button {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 1381px) {
+  .button {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 1202px) {
+  .button {
+    align-self: stretch;
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .button {
+    align-self: stretch;
+    margin-top: 2px;
+  }
+}
+
+.button {
+    display: flex;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 40px;
+    background: #fff;
+    color: #403531;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  
+  .button:hover {
+    background: #fff2d8;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  
+    .vector {
+      & path {
+        fill: #403531;
+        transition-duration: 0.3s;
+      }
+    }
+  }
