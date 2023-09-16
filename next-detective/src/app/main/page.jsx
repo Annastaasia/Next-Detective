@@ -1,5 +1,5 @@
 import MainBG from "../components/MainBG/MainBG.jsx";
-// import About from "../../components/About/About.jsx";
+import About from "..//components/About/About.jsx";
 // import Blog from "../../components/Blog/Blog.jsx";
 // import Director from "../../components/Director/Director.jsx";
 // import FAQ from "../../components/FAQ/FAQ.jsx";
@@ -16,8 +16,8 @@ function Main() {
     <>
       <main>
         <MainBG />
-        {/* <About />
-        <Services />
+        <About />
+        {/* <Services />
         <License />
         <Youtube />
         <FirstVisit />
