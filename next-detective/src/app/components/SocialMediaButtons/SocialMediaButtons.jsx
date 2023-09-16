@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import "./socialmediabuttons.scss";
 import Image from "next/image";
@@ -16,7 +17,7 @@ const SocialMediaButtons = () => {
     <div className="socmedia_container">
       <button onClick={handleButtonClick} className="socmedia_button">
         <Image
-        src={MediaButttons}
+          src={MediaButttons}
           alt="socmedia"
           className={`socmedia_icon ${showButtons ? "clicked" : ""}`}
           style={{
