@@ -7,7 +7,7 @@ import FirstVisit from "../components/FirstVisit/FirstVisit.jsx";
 import License from "../components/License/License.jsx";
 // import Map from "../../components/Map/Map.jsx";
 // import Review from "../../components/Review/Review.jsx";
-// import Safety from "../../components/Safety/Safety.jsx";
+import Safety from "../components/Safety/Safety.jsx";
 // import Services from "../../components/Services/Services.jsx";
 // import Youtube from "../../components/Youtube/Youtube.jsx";
 
@@ -22,9 +22,9 @@ function Main() {
         {/* <Youtube /> */}
         <FirstVisit />
         <Director />
-        {/* <Review />
+        {/* <Review /> */}
         <Safety />
-        <FAQ />
+        {/* <FAQ />
         <Blog />
         <Map /> */}
       </main>
