@@ -11,11 +11,13 @@
 // import Services from "../../components/Services/Services.jsx";
 // import Youtube from "../../components/Youtube/Youtube.jsx";
 import Link from "next/link";
+import Header from "../app/components/Header/Header";
 
 function Main() {
   return (
     <>
       <main>
+        <Header />
         <Link href={"/blog"}>Blog</Link>
         <Link href={"/article"}>Article</Link>
         <Link href={"/geolocation"}>Geolocation</Link>
