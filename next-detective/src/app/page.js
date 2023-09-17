@@ -12,6 +12,7 @@
 // import Youtube from "../../components/Youtube/Youtube.jsx";
 import Link from "next/link";
 import Header from "../app/components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function Main() {
   return (
@@ -25,6 +26,7 @@ function Main() {
         <Link href={"/contacts"}>Contacts</Link>
         <Link href={"/price"}>Price</Link>
         <Link href={"/main"}>Main</Link>
+        <Footer />
         {/* <MainBG />
         <About />
         <Services />
