@@ -1,7 +1,7 @@
 import style from "./mainbg.module.scss";
 import SecondModal from "../SecondModal/SecondModal";
 import SocialMediaButtons from "../SocialMediaButtons/SocialMediaButtons";
-import { ButtonModalMain } from "../ButtinModalMain/ButtonModalMain";
+import { ButtonModalMain } from "../ButtonModalMain/ButtonModalMain";
 
 export default function MainBG() {
   return (

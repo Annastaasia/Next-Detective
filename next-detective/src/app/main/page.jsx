@@ -1,7 +1,7 @@
 import MainBG from "../components/MainBG/MainBG.jsx";
 import About from "../components/About/About.jsx";
 // import Blog from "../../components/Blog/Blog.jsx";
-// import Director from "../../components/Director/Director.jsx";
+import Director from "../components/Director/Director.jsx";
 // import FAQ from "../../components/FAQ/FAQ.jsx";
 import FirstVisit from "../components/FirstVisit/FirstVisit.jsx";
 import License from "../components/License/License.jsx";
@@ -21,8 +21,8 @@ function Main() {
         <License />
         {/* <Youtube /> */}
         <FirstVisit />
-        {/* <Director />
-        <Review />
+        <Director />
+        {/* <Review />
         <Safety />
         <FAQ />
         <Blog />
