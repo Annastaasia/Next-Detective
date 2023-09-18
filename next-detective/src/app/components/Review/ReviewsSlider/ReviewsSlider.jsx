@@ -1,8 +1,8 @@
 "use client"
-import style from "../Review/review.module.scss";
+import style from "../review.module.scss";
 import "@splidejs/react-splide/css";
-import Review from "../ReviewCard/ReviewCard";
-import reviews from "../Review/review-array";
+import Review from "../../ReviewCard/ReviewCard";
+import reviews from "../review-array";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 export default function ReviewsSlider() {

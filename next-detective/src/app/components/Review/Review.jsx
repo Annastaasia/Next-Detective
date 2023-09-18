@@ -1,5 +1,5 @@
 import style from "./review.module.scss";
-import ReviewsSlider from "../ReviewsSlider/ReviewsSlider";
+import ReviewsSlider from "./ReviewsSlider/ReviewsSlider";
 import ArrowRight from "../../../../public/vectorright.svg";
 import Image from "next/image";
 

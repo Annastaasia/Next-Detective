@@ -9,7 +9,7 @@ import Map from "../components/Map/Map.jsx";
 import Reviews from "../components/Review/Review.jsx";
 import Safety from "../components/Safety/Safety.jsx";
 // import Services from "../../components/Services/Services.jsx";
-// import Youtube from "../../components/Youtube/Youtube.jsx";
+import Youtube from "../components/Youtube/Youtube.jsx";
 
 function Main() {
   return (
@@ -19,7 +19,7 @@ function Main() {
         <About />
         {/* <Services /> */}
         <License />
-        {/* <Youtube /> */}
+        <Youtube />
         <FirstVisit />
         <Director />
         <Reviews />
