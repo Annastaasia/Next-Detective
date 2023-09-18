@@ -14,6 +14,7 @@ export default function PricePage() {
         <section className={style.price_header}>
           <Breadcrumbs />
           <h1 className={style.h1}>цены на услуги детективного агентства</h1>
+          <p></p>
           <div className={style.services__tabs}>
             <div className={style.tabs__person}>
               <Image src={Person} alt="Person" className={style.icon} />

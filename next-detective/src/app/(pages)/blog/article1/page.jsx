@@ -1,26 +1,26 @@
-import Blog from "../../components/Blog/Blog";
-import { Carousel } from "../../components/Carousel/Carousel.jsx";
-import { Content } from "../../components/Content/Content.jsx";
-import { Questions } from "../../components/Questions/Questions";
-import { ButtonsLike } from "../../components/ButtonsLike/ButttonsLike";
+import Blog from "../../../components/Blog/Blog";
+import { Carousel } from "../../../components/Carousel/Carousel.jsx";
+import { Content } from "../../../components/Content/Content.jsx";
+import { Questions } from "../../../components/Questions/Questions";
+import { ButtonsLike } from "../../../components/ButtonsLike/ButttonsLike";
 import style from "./articlepage.module.scss";
-import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs.jsx";
+import Breadcrumbs from "../../../components/Breadcrumbs/Breadcrumbs.jsx";
 import Image from "next/image";
-import ArticleMain from "../../../../public/article-main-photo.png";
-import Eye from "../../../../public/article-eye.svg";
-import Fire from "../../../../public/article-fire.svg";
-import Car from "../../../../public/article-car.svg";
-import Cat from "../../../../public/article-cat.svg";
-import Slider1 from "../../../../public/article-slider1.png";
-import Slider2 from "../../../../public/article-slider2.png";
-import Slider3 from "../../../../public/article-slider3.png";
-import Quote from "../../../../public/article-quote.svg";
-import Info from "../../../../public/article-info.svg";
-import FormPhoto from "../../../../public/form-foto.png";
-import Telegram from "../../../../public/footer-telegram.svg";
-import Whatsapp from "../../../../public/article-whatsapp.svg";
-import Vk from "../../../../public/article-vk.svg";
-import Fc from "../../../../public/article-facebook.svg";
+import ArticleMain from "../../../../../public/article-main-photo.png";
+import Eye from "../../../../../public/article-eye.svg";
+import Fire from "../../../../../public/article-fire.svg";
+import Car from "../../../../../public/article-car.svg";
+import Cat from "../../../../../public/article-cat.svg";
+import Slider1 from "../../../../../public/article-slider1.png";
+import Slider2 from "../../../../../public/article-slider2.png";
+import Slider3 from "../../../../../public/article-slider3.png";
+import Quote from "../../../../../public/article-quote.svg";
+import Info from "../../../../../public/article-info.svg";
+import FormPhoto from "../../../../../public/form-foto.png";
+import Telegram from "../../../../../public/footer-telegram.svg";
+import Whatsapp from "../../../../../public/article-whatsapp.svg";
+import Vk from "../../../../../public/article-vk.svg";
+import Fc from "../../../../../public/article-facebook.svg";
 
 export default function ArticlePage(props) {
   const slides = [
