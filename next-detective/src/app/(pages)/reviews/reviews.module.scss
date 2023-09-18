@@ -1,7 +1,6 @@
 .page_container {
   color: #403531;
   background-color: white;
-  // font-family: Geologica;
 
   .page_header {
     display: flex;
@@ -16,6 +15,10 @@
       position: absolute;
       top: 128px;
       left: 64px;
+       ol {
+        margin: 0;
+      padding: 0;
+      }
     }
   }
 
@@ -104,7 +107,6 @@
       }
 
       .page_title {
-        margin-top: 16px;
         font-size: 24px;
       }
 
