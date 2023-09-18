@@ -24,11 +24,7 @@
     font-size: 16px;
   }
 
-  .tabs__person {
-    font-size: 21px;
-  }
-
-  .tabs__business {
+  .tabs__person .tabs__business {
     font-size: 21px;
   }
 
@@ -50,11 +46,7 @@
     font-size: 28px;
   }
 
-  .tabs__person {
-    font-size: 21px;
-  }
-
-  .tabs__business {
+  .tabs__person .tabs__business {
     font-size: 21px;
   }
 
@@ -199,14 +191,13 @@
   font-style: normal;
   font-weight: 500;
   flex-shrink: 0;
-  opacity: 0.4;
-  transition-duration: 0.1s;
 }
 
 .tabs__business:hover {
   color: #403531;
 
-  .icon {
+  .icon * {
+    fill: #403531;
     opacity: 1;
   }
 }

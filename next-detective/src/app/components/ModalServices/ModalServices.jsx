@@ -49,7 +49,10 @@ export default function ModalServices(props) {
                 <Link href="/" onClick={() => Check()}>
                   <p className={style.text}>Организация слежки</p>
                 </Link>
-                <Link onClick={() => Check()} href="/geolocation">
+                <Link
+                  onClick={() => Check()}
+                  href="/services_for_individuals/geolocation"
+                >
                   <p className={style.text}>
                     Пробить геолокацию по номеру телефона
                   </p>
