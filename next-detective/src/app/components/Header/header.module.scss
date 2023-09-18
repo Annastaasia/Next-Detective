@@ -76,11 +76,12 @@
 }
 
 .telegram {
-  max-width: 48px;
-  min-width: 48px;
+  width: 48px;
+  height: auto;
 }
 
 .whatsapp {
-  max-width: 48px;
-  min-width: 48px;
+  width: 48px;
+  height: auto;
+  margin-left: 12px;
 }

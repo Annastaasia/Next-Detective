@@ -4,7 +4,7 @@ import "./socialmediabuttons.scss";
 import Image from "next/image";
 import MediaButttons from "../../../../public/bxs_chat.svg";
 import Telegram from "../../../../public/telegram.svg";
-import WhatsApp from "../../../../public/whatsapp.svg";
+import WhatsApp from "../../../../public/whatsapp.png";
 
 export default function SocialMediaButtons() {
   const [showButtons, setShowButtons] = useState(false);
@@ -38,7 +38,7 @@ export default function SocialMediaButtons() {
           target="_blank"
           rel="noreferrer"
         >
-          <Image src={WhatsApp} alt="WhatsApp" className="socmedia_whatsapp" />
+          <Image src={WhatsApp} width={48} height={48} alt="WhatsApp" className="socmedia_whatsapp" />
         </a>
       </div>
     </div>

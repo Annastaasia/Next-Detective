@@ -1,4 +1,3 @@
-// "use client"
 import style from "./blogpage.module.scss";
 import Pagination from "../../components/Pagination/Pagination";
 import posts from "../../components/Post/posts";

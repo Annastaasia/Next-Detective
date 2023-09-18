@@ -10,36 +10,41 @@
     height: 0;
     overflow: hidden;
     transition: opacity 0.3s, height 0.3s;
+    img {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      margin-bottom: 6px;
+    }
   }
 
   .social-buttons.show {
     display: flex;
+    gap: 10px;
     flex-direction: column;
     opacity: 1;
     position: fixed;
     z-index: 10;
     height: auto;
     right: 32px;
-    bottom: 104px;
+    bottom: 98px;
   }
 
   .socmedia_button {
     position: fixed;
     z-index: 10;
-    right: 26px;
+    right: 30px;
     bottom: 34px;
-    padding: 17px 15px 11px 17px;
-    border-radius: 74px;
+    padding: 13px 12px 10px 12px;
+    border-radius: 50%;
     border: 1px solid #e7e7e7;
     background: #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
-  .socmedia_icon * {
+  .socmedia_icon {
     transition-duration: 0.3s;
   }
 
-  .socmedia_icon.clicked * {
-    fill: #e9c394;
+  .socmedia_icon.clicked {
+    filter: brightness(0) saturate(100%) invert(86%) sepia(50%) saturate(478%) hue-rotate(316deg) brightness(99%) contrast(84%);
   }
 }

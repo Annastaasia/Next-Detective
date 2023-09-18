@@ -168,7 +168,7 @@
   .navcontainer {
     display: flex;
     align-items: baseline;
-    padding: 330px 16px 2px 16px;
+    margin-top: auto;
     justify-content: space-evenly;
     align-items: center;
   }
@@ -220,13 +220,13 @@
   }
 
   .telegram {
-    max-width: 48px;
-    min-width: 48px;
+    width: 48px;
+    height: auto;
   }
 
   .whatsapp {
-    max-width: 48px;
-    min-width: 48px;
+    width: 48px;
+    height: auto;
   }
 }
 

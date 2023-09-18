@@ -6,7 +6,7 @@ import Burger from "../Nav/Burger.jsx";
 import Logo from "../../../../public/logo.svg";
 import Phone from "../../../../public/phone.svg";
 import Telegram from "../../../../public/telegram.svg";
-import WhatsApp from "../../../../public/whatsapp.svg";
+import WhatsApp from "../../../../public/whatsapp.png";
 import style from "./header.module.scss";
 import "./sticky.scss";
 

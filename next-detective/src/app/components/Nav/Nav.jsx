@@ -11,7 +11,7 @@ import style from "./nav.module.scss";
 import ModalServices from "../../components/ModalServices/ModalServices";
 import Phone from "../../../../public/gg_phone.svg";
 import Telegram from "../../../../public/telegram.svg";
-import WhatsApp from "../../../../public/whatsapp.svg";
+import WhatsApp from "../../../../public/whatsapp.png";
 
 const Ul = styled.ul`
   list-style: none;
@@ -47,7 +47,9 @@ const Ul = styled.ul`
     left: 0;
     right: 0;
     padding: 24px 16px;
-    height: 812px;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: fill-available;
     transition: transform 0.3s ease-in-out;
     margin: 0%;
   }
