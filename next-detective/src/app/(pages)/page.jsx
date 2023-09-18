@@ -11,7 +11,7 @@ import Safety from "../components/Safety/Safety.jsx";
 import Services from "../components/Services/Services.jsx";
 import Youtube from "../components/Youtube/Youtube.jsx";
 
-function Main() {
+export default function Main() {
   return (
     <>
       <main>
@@ -31,5 +31,3 @@ function Main() {
     </>
   );
 }
-
-export default Main;

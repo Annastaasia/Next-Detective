@@ -1,7 +1,6 @@
 "use client";
 import style from "./form.module.scss";
 import { useForm } from "react-hook-form";
-import { useMediaQuery } from "react-responsive";
 import InputMask from "react-input-mask";
 import FormError from "../../../../public/FormError.jsx";
 import FormCheck from "../../../../public/FormCheck.jsx";
@@ -10,8 +9,11 @@ import { useState } from "react";
 import mainstyles from "../MainBG/mainbg.module.scss";
 import "../FAQ/faq.scss";
 
+import useWindowDimensions  from '../../hooks/useWindowDimensions';
+
 export default function Form(props) {
-  const isMobile = useMediaQuery({ query: `(max-width: 580px)` });
+  const dimensions = useWindowDimensions();
+  const isMobile = () => (dimensions.width <= 580) ? true : false;
 
   const {
     register,
@@ -43,7 +45,7 @@ export default function Form(props) {
     trigger("question");
   };
 
-  if (props.isOnMain && isMobile) {
+  if (props.isOnMain && isMobile()) {
     return null;
   } else {
     return (

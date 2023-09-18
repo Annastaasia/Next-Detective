@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { useState } from "react";
 import "./socialmediabuttons.scss";
 import Image from "next/image";
@@ -6,7 +6,7 @@ import MediaButttons from "../../../../public/bxs_chat.svg";
 import Telegram from "../../../../public/telegram.svg";
 import WhatsApp from "../../../../public/whatsapp.svg";
 
-const SocialMediaButtons = () => {
+export default function SocialMediaButtons() {
   const [showButtons, setShowButtons] = useState(false);
 
   const handleButtonClick = () => {
@@ -15,7 +15,7 @@ const SocialMediaButtons = () => {
 
   return (
     <div className="socmedia_container">
-      <button onClick={handleButtonClick} className="socmedia_button">
+       <button onClick={handleButtonClick} className="socmedia_button">
         <Image
           src={MediaButttons}
           alt="socmedia"
@@ -24,7 +24,7 @@ const SocialMediaButtons = () => {
             transition: "transform 0.3s ease",
           }}
         />
-      </button>
+      </button> 
       <div className={`social-buttons ${showButtons ? "show" : "hide"}`}>
         <a
           href="https://t.me/pershin_detective"
@@ -44,5 +44,3 @@ const SocialMediaButtons = () => {
     </div>
   );
 };
-
-export default SocialMediaButtons;
