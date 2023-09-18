@@ -1,5 +1,7 @@
 import './globals.css'
 import { Geologica } from 'next/font/google'
+import Header from "../app/components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 const geologica = Geologica({ subsets: ['latin', 'cyrillic'] })
 
@@ -11,7 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={geologica.className}>{children}</body>
+      <body className={geologica.className}>
+        <Header />
+          {children}
+        <Footer />
+        </body>
     </html>
   )
 }

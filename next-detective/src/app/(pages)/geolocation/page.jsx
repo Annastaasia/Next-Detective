@@ -1,14 +1,14 @@
 import style from "./geolocationpage.module.scss";
 import Link from "next/link";
 import Image from "next/image";
-import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs.jsx";
-import GeoLocationImg from "../../../public/geolocation-photo.png";
-import Star from "../../../public/icon_star.svg";
-import Binoculars from "../../../public/services-binoculars.svg";
-import Play from "../../../public/play.svg";
-import FAQ from "../components/FAQ/FAQ";
-import Blog from "../components/Blog/Blog";
-import { ButtonModal } from "../components/ButtonModal/ButtonModal";
+import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs.jsx";
+import GeoLocationImg from "../../../../public/geolocation-photo.png";
+import Star from "../../../../public/icon_star.svg";
+import Binoculars from "../../../../public/services-binoculars.svg";
+import Play from "../../../../public/play.svg";
+import FAQ from "../../components/FAQ/FAQ";
+import Blog from "../../components/Blog/Blog";
+import { ButtonModal } from "../../components/ButtonModal/ButtonModal";
 
 export default function GeoLocationPage() {
   return (

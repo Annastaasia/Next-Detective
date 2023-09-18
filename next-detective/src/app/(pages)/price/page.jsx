@@ -1,11 +1,11 @@
 import style from "./pricepage.module.scss";
-import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs";
+import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import Link from "next/link";
 import Image from "next/image";
-import Person from "../../../public/dashicons_businessman.svg";
-import Business from "../../../public/dashbusiness-center.svg";
-import Table from "../components/Table/Table";
-import PriceMobile from "../components/PriceMobile/PriceMobile";
+import Person from "../../../../public/dashicons_businessman.svg";
+import Business from "../../../../public/dashbusiness-center.svg";
+import Table from "../../components/Table/Table";
+import PriceMobile from "../../components/PriceMobile/PriceMobile";
 
 export default function PricePage() {
   return (

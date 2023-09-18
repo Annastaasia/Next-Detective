@@ -1,8 +1,8 @@
 import style from "./reviews.module.scss";
-import reviews from "../components/Review/review-array";
-import Pagination from "../components/Pagination/Pagination";
-import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs.jsx";
-import Arrow from "../../../public/vectorright.svg";
+import reviews from "../../components/Review/review-array";
+import Pagination from "../../components/Pagination/Pagination";
+import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs.jsx";
+import Arrow from "../../../../public/vectorright.svg";
 import Image from "next/image";
 
 export default function Reviews(props) {
