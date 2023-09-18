@@ -11,7 +11,7 @@ export default function MainBG() {
           <h1 className={style.h1}>perhin & partners</h1>
           <h2 className={style.h2}>детективное агентство в москве</h2>
 
-          <SecondModal isOnMain={true}></SecondModal>
+          <SecondModal isOnMain={true} />
 
           <SocialMediaButtons />
         </div>

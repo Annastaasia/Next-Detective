@@ -1,11 +1,11 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import HowToReachUs from "../HowToReachUs/HowToReachUs";
 import Thanks from "../ThanksForContactingUs/ThanksForContactingUs";
 import Form from "../Form/Form";
 import MainMobilePopup from "../MainMobilePopup/MainMobilePopup";
 
-const SecondModal = (props) => {
+export default function SecondModal(props){
   const [showFirstModal, setShowFirstModal] = useState(true);
   const [showSecondModal, setShowSecondModal] = useState(false);
 
@@ -36,5 +36,3 @@ const SecondModal = (props) => {
     </>
   );
 };
-
-export default SecondModal;
