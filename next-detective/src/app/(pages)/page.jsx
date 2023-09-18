@@ -8,7 +8,7 @@ import License from "../components/License/License.jsx";
 import Map from "../components/Map/Map.jsx";
 import Reviews from "../components/Review/Review.jsx";
 import Safety from "../components/Safety/Safety.jsx";
-// import Services from "../../components/Services/Services.jsx";
+import Services from "../components/Services/Services.jsx";
 import Youtube from "../components/Youtube/Youtube.jsx";
 
 function Main() {
@@ -17,7 +17,7 @@ function Main() {
       <main>
         <MainBG />
         <About />
-        {/* <Services /> */}
+        <Services />
         <License />
         <Youtube />
         <FirstVisit />
