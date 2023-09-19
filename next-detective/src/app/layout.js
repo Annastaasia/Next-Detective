@@ -12,12 +12,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <body className={geologica.className}>
         <Header />
-          {children}
+        {children}
         <Footer />
-        </body>
+      </body>
     </html>
   )
 }
